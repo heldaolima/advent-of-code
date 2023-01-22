@@ -19,9 +19,8 @@ class d4_1 {
                 hashtext = "0" + hashtext;
             }
             
-            if (hashtext.startsWith("00000")) break;
-
-            
+            if (hashtext.startsWith("00000")) 
+                break;
         }
         
         System.out.println(curr-1);
